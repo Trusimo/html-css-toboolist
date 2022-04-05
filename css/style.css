@@ -1,10 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    background-color: aquamarine;
+    background-color: #f6f8f9;
 }
 
 header {
@@ -23,7 +24,6 @@ header img {
 
 h1 {
     display: inline-block;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 #rigainizio {
@@ -48,12 +48,25 @@ h1 {
     width: 900px;
 }
 
-
-.startbutton {
+#task {
+    color: #ffffff;
     font-size: small;
-    font-family: Arial, Helvetica, sans-serif;
     display: inline-block;
     border-radius: 2px;
-    padding-top: 15px;
-    padding-left: 30px;
+    background-color: cornflowerblue;
+    margin-left: 50px;
+    margin-top: 15px;
+    text-align: center;
+    padding: 7px;
+}
+
+#selection {
+    box-sizing: border-box;
+    color: #c7ccd1;
+    font-size: small;
+    display: inline-block;
+    border-radius: 5px;
+    border-style: solid;
+    text-align: center;
+    padding: 5px;
 }
