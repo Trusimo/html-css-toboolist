@@ -26,9 +26,41 @@ h1 {
     display: inline-block;
 }
 
-.buttonform {
-    
+.boxbutton {
+    box-sizing: border-box;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-bottom: 2px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    width: 900px;
+    height: 50px;
 }
+
+.button {
+    font-size: small;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 15px;
+    text-align: center;
+    padding: 7px 12px;
+    box-sizing: border-box;
+}
+
+.boxlista {
+    box-sizing: border-box;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 600px;
+    width: 900px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
 
 .categoria {
     color: #ffffff;
@@ -54,49 +86,17 @@ h1 {
     padding: 3px;
 }
 
-#rigainizio {
-    box-sizing: border-box;
-    background-color: #ffffff;
-    margin: 0 auto;
-    margin-bottom: 2px;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-    width: 900px;
-    height: 50px;
-}
-
-#lista {
-    box-sizing: border-box;
-    background-color: #ffffff;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    height: 900px;
-    width: 900px;
-}
-
 #task {
     color: #ffffff;
-    font-size: small;
-    display: inline-block;
-    border-radius: 5px;
+    border: solid #45abea;
     background-color: #45abea;
     margin-left: 50px;
-    margin-top: 15px;
-    text-align: center;
-    padding: 7px 12px;
 }
 
 #selection {
-    box-sizing: border-box;
     color: #c7ccd1;
-    font-size: small;
-    display: inline-block;
-    border-radius: 5px;
     border-style: solid;
-    text-align: center;
-    padding: 5px 10px;
+    margin-left: 5px;
 }
 
 #editorial {
