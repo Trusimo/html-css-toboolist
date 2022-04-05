@@ -26,6 +26,25 @@ h1 {
     display: inline-block;
 }
 
+.categoria {
+    color: #ffffff;
+    font-size: x-small;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.greencircle {
+    border-style: solid;
+    border-color: #73c7b3;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+#editorial {
+    background-color: #45abea;
+}
+
 #rigainizio {
     box-sizing: border-box;
     background-color: #ffffff;
@@ -53,11 +72,11 @@ h1 {
     font-size: small;
     display: inline-block;
     border-radius: 2px;
-    background-color: cornflowerblue;
+    background-color: #45abea;
     margin-left: 50px;
     margin-top: 15px;
     text-align: center;
-    padding: 7px;
+    padding: 8px;
 }
 
 #selection {
